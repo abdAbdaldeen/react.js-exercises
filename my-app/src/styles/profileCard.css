@@ -1,0 +1,96 @@
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-container .card {
+  margin: 2rem 0px;
+  width: 30%;
+  color: white;
+  background-color: #444;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.flex-container .card .background-img {
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px 30px 0px 0px;
+  text-align: right !important;
+}
+
+.flex-container .card .background-img button {
+  margin: 2rem;
+  background: transparent;
+  border: 0px;
+  outline: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.flex-container .card .personal-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-container .card .personal-img img {
+  margin: auto;
+  margin-top: -15%;
+  width: 33%;
+  border-radius: 100%;
+}
+
+.flex-container .card .card-body {
+  padding: 0px 1rem 1rem 1rem;
+}
+
+.flex-container .card .card-body .name {
+  font-size: 1.7rem;
+}
+
+.flex-container .card .card-body .title {
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
+.flex-container .card .socialMedia-container i {
+  font-size: 2.5rem;
+  margin: 0px 1.5rem;
+  opacity: 0.8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.flex-container .card .socialMedia-container .fa-github:hover {
+  color: #000;
+  opacity: 1;
+}
+
+.flex-container .card .socialMedia-container .fa-linkedin:hover {
+  color: #0a66c2;
+  opacity: 1;
+}
+
+.flex-container .card .socialMedia-container .fa-facebook:hover {
+  color: #1773ea;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 90% !important;
+  }
+}
+/*# sourceMappingURL=profileCard.css.map */
