@@ -2,11 +2,10 @@ import React from 'react';
 import ProfileCards from './ProfileCards';
 import "./styles/profileCard.css"
 function App() {
-const addProfile =()=>{
 
-}
   return (
     <div className="App">
+      
       {/* <form>
   <label>
     Name:

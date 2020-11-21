@@ -79,3 +79,8 @@
     width: 90% !important;
   }
 }
+@media (min-width: 601px) and (max-width: 800px) {
+  .card {
+    width: 45% !important;
+  }
+}
