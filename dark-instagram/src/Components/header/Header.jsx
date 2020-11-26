@@ -5,7 +5,11 @@ function Header() {
   return (
 <header>
   <div className='header-container'>
+  <Link to="/">
   <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt=""/>
+
+  </Link>
+  {/* <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt=""/> */}
 
 <input type="text" placeholder="&#xF002; Search..." />
 
