@@ -1,0 +1,23 @@
+import './App.css';
+import React from 'react';
+import {BrowserRouter as Router , Switch , Route} from 'react-router-dom';
+import Header from './Components/header/Header'
+import Home from './Pages/Home/home'
+import Profile from './Pages/Profile/profile'
+function App() {
+  return (
+    <Router> 
+      <div className="App">
+        <Header />
+        <Switch >
+          <Route path="/" exact component={Home} />
+          <Route path="/profile" exact component={Profile} />
+
+        </Switch>
+      </div>
+    </Router>
+    
+  );
+}
+
+export default App;
