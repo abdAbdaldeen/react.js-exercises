@@ -1,0 +1,30 @@
+.todo {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.todo #to-do-form {
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: auto;
+}
+
+.todo #to-do-form input {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  width: 90%;
+  font-size: 1rem;
+}
+
+.todo #to-do-form button {
+  font-size: 1.2rem;
+  width: 10%;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
